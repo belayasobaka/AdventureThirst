@@ -17,7 +17,6 @@ import CountrySelect, {
 } from "../inputs/CountrySelect";
 import Heading from '../Heading';
 import BasicDateCalendar from "@/app/components/listings/ListingCalendar";
-import {FieldValues, useForm} from "react-hook-form";
 
 enum STEPS {
     LOCATION = 0,
