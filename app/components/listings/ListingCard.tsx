@@ -65,11 +65,11 @@ const ListingCard: React.FC<ListingCardProps> = ({
         }
 
         return data.guestCount;
-    }, [reservation, data.price]);
+    }, [reservation, data.guestCount]);
 
     const title = useMemo(() => {
         return data.title;
-    }, [reservation, data.title])
+    }, [data.title])
 
   const reservationDate = useMemo(() => {
     if (!reservation) {
